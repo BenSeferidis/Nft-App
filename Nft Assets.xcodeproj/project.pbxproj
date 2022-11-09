@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E02D4292900012400A185BC /* PresentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E02D4282900012400A185BC /* PresentViewController.storyboard */; };
+		3E15BA1B2923A5480071D53A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E15BA192923A53F0071D53A /* Info.plist */; };
+		3E1DC48929111F44002BE062 /* CreatorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1DC48729111F44002BE062 /* CreatorsTableViewCell.swift */; };
+		3E1DC48A29111F44002BE062 /* CreatorsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E1DC48829111F44002BE062 /* CreatorsTableViewCell.xib */; };
+		3E5DC31C2922444200D2E63F /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 3E5DC31B2922444200D2E63F /* Hero */; };
+		3E5DC31F29224BA700D2E63F /* ViewAnimator in Frameworks */ = {isa = PBXBuildFile; productRef = 3E5DC31E29224BA700D2E63F /* ViewAnimator */; };
+		3E68A99E291D17EF007C3CF7 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E68A99C291D17EF007C3CF7 /* OpeningViewController.swift */; };
+		3E6EF1C12924E1AC00F90711 /* Lightersdemo-z8p30.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E6EF1C02924E1AC00F90711 /* Lightersdemo-z8p30.otf */; };
+		3E771F322902AF0D002AA78F /* PopUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E771F312902AF0D002AA78F /* PopUpViewController.storyboard */; };
+		3E927266291A9B020054CAE7 /* CreatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E927264291A9B020054CAE7 /* CreatorCollectionViewCell.swift */; };
+		3E927267291A9B020054CAE7 /* CreatorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E927265291A9B020054CAE7 /* CreatorCollectionViewCell.xib */; };
+		3EB062F328F9568D00EB0842 /* AssetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB062F128F9568D00EB0842 /* AssetTableViewCell.swift */; };
+		3EB062F428F9568D00EB0842 /* AssetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB062F228F9568D00EB0842 /* AssetTableViewCell.xib */; };
+		3EB062F628F9849B00EB0842 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB062F528F9849B00EB0842 /* PopUpViewController.swift */; };
+		3ED4D5BB291E4ECF0079FE13 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4D5BA291E4ECF0079FE13 /* HapticsManager.swift */; };
+		3EDA54B728F6ED8100E27972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA54B628F6ED8100E27972 /* AppDelegate.swift */; };
+		3EDA54B928F6ED8100E27972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA54B828F6ED8100E27972 /* SceneDelegate.swift */; };
+		3EDA54BB28F6ED8100E27972 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA54BA28F6ED8100E27972 /* LobbyViewController.swift */; };
+		3EDA54BE28F6ED8100E27972 /* Lobby.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA54BC28F6ED8100E27972 /* Lobby.storyboard */; };
+		3EDA54C028F6ED8200E27972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA54BF28F6ED8200E27972 /* Assets.xcassets */; };
+		3EDA54C328F6ED8200E27972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA54C128F6ED8200E27972 /* LaunchScreen.storyboard */; };
+		3EDA54CB28F6EF1100E27972 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA54CA28F6EF1100E27972 /* PresentViewController.swift */; };
+		3EDA54CD28F6F48300E27972 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA54CC28F6F48300E27972 /* Models.swift */; };
+		3EDA54CF28F6F4A800E27972 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA54CE28F6F4A800E27972 /* APICaller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E02D4282900012400A185BC /* PresentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PresentViewController.storyboard; sourceTree = "<group>"; };
+		3E15BA182923A53F0071D53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		3E1DC48729111F44002BE062 /* CreatorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsTableViewCell.swift; sourceTree = "<group>"; };
+		3E1DC48829111F44002BE062 /* CreatorsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatorsTableViewCell.xib; sourceTree = "<group>"; };
+		3E68A99C291D17EF007C3CF7 /* OpeningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
+		3E6EF1C02924E1AC00F90711 /* Lightersdemo-z8p30.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lightersdemo-z8p30.otf"; sourceTree = "<group>"; };
+		3E771F312902AF0D002AA78F /* PopUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUpViewController.storyboard; sourceTree = "<group>"; };
+		3E927264291A9B020054CAE7 /* CreatorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E927265291A9B020054CAE7 /* CreatorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatorCollectionViewCell.xib; sourceTree = "<group>"; };
+		3EB062F128F9568D00EB0842 /* AssetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTableViewCell.swift; sourceTree = "<group>"; };
+		3EB062F228F9568D00EB0842 /* AssetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetTableViewCell.xib; sourceTree = "<group>"; };
+		3EB062F528F9849B00EB0842 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		3ED4D5BA291E4ECF0079FE13 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		3EDA54B328F6ED8100E27972 /* Nft Assets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nft Assets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDA54B628F6ED8100E27972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EDA54B828F6ED8100E27972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EDA54BA28F6ED8100E27972 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		3EDA54BD28F6ED8100E27972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Lobby.storyboard; sourceTree = "<group>"; };
+		3EDA54BF28F6ED8200E27972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDA54C228F6ED8200E27972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EDA54CA28F6EF1100E27972 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		3EDA54CC28F6F48300E27972 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3EDA54CE28F6F4A800E27972 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EDA54B028F6ED8100E27972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5DC31F29224BA700D2E63F /* ViewAnimator in Frameworks */,
+				3E5DC31C2922444200D2E63F /* Hero in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1DC48229111F0B002BE062 /* CreatorsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E1DC48729111F44002BE062 /* CreatorsTableViewCell.swift */,
+				3E1DC48829111F44002BE062 /* CreatorsTableViewCell.xib */,
+				3E927263291A9ADD0054CAE7 /* CreatorCollectionViewCell */,
+			);
+			path = CreatorsTableViewCell;
+			sourceTree = "<group>";
+		};
+		3E4C941728FEB98D00653719 /* PresentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA54CA28F6EF1100E27972 /* PresentViewController.swift */,
+				3E02D4282900012400A185BC /* PresentViewController.storyboard */,
+			);
+			path = PresentViewController;
+			sourceTree = "<group>";
+		};
+		3E4C941A28FEB9FE00653719 /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA54BC28F6ED8100E27972 /* Lobby.storyboard */,
+				3EDA54BA28F6ED8100E27972 /* LobbyViewController.swift */,
+				3E771F302902A398002AA78F /* TableView */,
+			);
+			path = Lobby;
+			sourceTree = "<group>";
+		};
+		3E67F1BE291D1775009D49C1 /* Opening */ = {
+			isa = PBXGroup;
+			children = (
+				3E68A99C291D17EF007C3CF7 /* OpeningViewController.swift */,
+			);
+			path = Opening;
+			sourceTree = "<group>";
+		};
+		3E771F302902A398002AA78F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3E1DC48229111F0B002BE062 /* CreatorsTableViewCell */,
+				3EB062FA28F9907000EB0842 /* AssetTableViewCell */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3E927263291A9ADD0054CAE7 /* CreatorCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E927264291A9B020054CAE7 /* CreatorCollectionViewCell.swift */,
+				3E927265291A9B020054CAE7 /* CreatorCollectionViewCell.xib */,
+			);
+			path = CreatorCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3EB062F928F98E9A00EB0842 /* PopUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3EB062F528F9849B00EB0842 /* PopUpViewController.swift */,
+				3E771F312902AF0D002AA78F /* PopUpViewController.storyboard */,
+			);
+			path = PopUpViewController;
+			sourceTree = "<group>";
+		};
+		3EB062FA28F9907000EB0842 /* AssetTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3EB062F128F9568D00EB0842 /* AssetTableViewCell.swift */,
+				3EB062F228F9568D00EB0842 /* AssetTableViewCell.xib */,
+			);
+			path = AssetTableViewCell;
+			sourceTree = "<group>";
+		};
+		3EDA54AA28F6ED8100E27972 = {
+			isa = PBXGroup;
+			children = (
+				3E6EF1C02924E1AC00F90711 /* Lightersdemo-z8p30.otf */,
+				3EDA54B528F6ED8100E27972 /* Nft Assets */,
+				3EDA54B428F6ED8100E27972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDA54B428F6ED8100E27972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA54B328F6ED8100E27972 /* Nft Assets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDA54B528F6ED8100E27972 /* Nft Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA54B628F6ED8100E27972 /* AppDelegate.swift */,
+				3EDA54B828F6ED8100E27972 /* SceneDelegate.swift */,
+				3ED4D5BA291E4ECF0079FE13 /* HapticsManager.swift */,
+				3E67F1BE291D1775009D49C1 /* Opening */,
+				3E4C941A28FEB9FE00653719 /* Lobby */,
+				3E4C941728FEB98D00653719 /* PresentViewController */,
+				3EB062F928F98E9A00EB0842 /* PopUpViewController */,
+				3EDA54BF28F6ED8200E27972 /* Assets.xcassets */,
+				3EDA54C128F6ED8200E27972 /* LaunchScreen.storyboard */,
+				3E15BA192923A53F0071D53A /* Info.plist */,
+				3EDA54CE28F6F4A800E27972 /* APICaller.swift */,
+				3EDA54CC28F6F48300E27972 /* Models.swift */,
+			);
+			path = "Nft Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EDA54B228F6ED8100E27972 /* Nft Assets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDA54C728F6ED8200E27972 /* Build configuration list for PBXNativeTarget "Nft Assets" */;
+			buildPhases = (
+				3EDA54AF28F6ED8100E27972 /* Sources */,
+				3EDA54B028F6ED8100E27972 /* Frameworks */,
+				3EDA54B128F6ED8100E27972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nft Assets";
+			packageProductDependencies = (
+				3E5DC31B2922444200D2E63F /* Hero */,
+				3E5DC31E29224BA700D2E63F /* ViewAnimator */,
+			);
+			productName = "Nft Assets";
+			productReference = 3EDA54B328F6ED8100E27972 /* Nft Assets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDA54AB28F6ED8100E27972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3EDA54B228F6ED8100E27972 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EDA54AE28F6ED8100E27972 /* Build configuration list for PBXProject "Nft Assets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EDA54AA28F6ED8100E27972;
+			packageReferences = (
+				3E5DC31A2922444200D2E63F /* XCRemoteSwiftPackageReference "Hero" */,
+				3E5DC31D29224BA700D2E63F /* XCRemoteSwiftPackageReference "ViewAnimator" */,
+			);
+			productRefGroup = 3EDA54B428F6ED8100E27972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDA54B228F6ED8100E27972 /* Nft Assets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EDA54B128F6ED8100E27972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDA54C328F6ED8200E27972 /* LaunchScreen.storyboard in Resources */,
+				3E1DC48A29111F44002BE062 /* CreatorsTableViewCell.xib in Resources */,
+				3E6EF1C12924E1AC00F90711 /* Lightersdemo-z8p30.otf in Resources */,
+				3EDA54C028F6ED8200E27972 /* Assets.xcassets in Resources */,
+				3E771F322902AF0D002AA78F /* PopUpViewController.storyboard in Resources */,
+				3EB062F428F9568D00EB0842 /* AssetTableViewCell.xib in Resources */,
+				3E927267291A9B020054CAE7 /* CreatorCollectionViewCell.xib in Resources */,
+				3EDA54BE28F6ED8100E27972 /* Lobby.storyboard in Resources */,
+				3E02D4292900012400A185BC /* PresentViewController.storyboard in Resources */,
+				3E15BA1B2923A5480071D53A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EDA54AF28F6ED8100E27972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB062F328F9568D00EB0842 /* AssetTableViewCell.swift in Sources */,
+				3EDA54CB28F6EF1100E27972 /* PresentViewController.swift in Sources */,
+				3EDA54CF28F6F4A800E27972 /* APICaller.swift in Sources */,
+				3EDA54BB28F6ED8100E27972 /* LobbyViewController.swift in Sources */,
+				3EDA54B728F6ED8100E27972 /* AppDelegate.swift in Sources */,
+				3EDA54B928F6ED8100E27972 /* SceneDelegate.swift in Sources */,
+				3ED4D5BB291E4ECF0079FE13 /* HapticsManager.swift in Sources */,
+				3EDA54CD28F6F48300E27972 /* Models.swift in Sources */,
+				3E927266291A9B020054CAE7 /* CreatorCollectionViewCell.swift in Sources */,
+				3E1DC48929111F44002BE062 /* CreatorsTableViewCell.swift in Sources */,
+				3EB062F628F9849B00EB0842 /* PopUpViewController.swift in Sources */,
+				3E68A99E291D17EF007C3CF7 /* OpeningViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E15BA192923A53F0071D53A /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E15BA182923A53F0071D53A /* Base */,
+			);
+			name = Info.plist;
+			path = "Nft Assets";
+			sourceTree = SOURCE_ROOT;
+		};
+		3EDA54BC28F6ED8100E27972 /* Lobby.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDA54BD28F6ED8100E27972 /* Base */,
+			);
+			name = Lobby.storyboard;
+			sourceTree = "<group>";
+		};
+		3EDA54C128F6ED8200E27972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDA54C228F6ED8200E27972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EDA54C528F6ED8200E27972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/benseferidis/Developer/Nft-App/Nft Assets/Base.lproj/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EDA54C628F6ED8200E27972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/benseferidis/Developer/Nft-App/Nft Assets/Base.lproj/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDA54C828F6ED8200E27972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9HZSHQT3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/benseferidis/Developer/Nft-App/Nft Assets/Base.lproj/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Lobby;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BenSeferidis.Nft-Assets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EDA54C928F6ED8200E27972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9HZSHQT3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/benseferidis/Developer/Nft-App/Nft Assets/Base.lproj/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Lobby;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BenSeferidis.Nft-Assets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EDA54AE28F6ED8100E27972 /* Build configuration list for PBXProject "Nft Assets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDA54C528F6ED8200E27972 /* Debug */,
+				3EDA54C628F6ED8200E27972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDA54C728F6ED8200E27972 /* Build configuration list for PBXNativeTarget "Nft Assets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDA54C828F6ED8200E27972 /* Debug */,
+				3EDA54C928F6ED8200E27972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E5DC31A2922444200D2E63F /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BenSeferidis/Hero.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		3E5DC31D29224BA700D2E63F /* XCRemoteSwiftPackageReference "ViewAnimator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marcosgriselli/ViewAnimator.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E5DC31B2922444200D2E63F /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E5DC31A2922444200D2E63F /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		3E5DC31E29224BA700D2E63F /* ViewAnimator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E5DC31D29224BA700D2E63F /* XCRemoteSwiftPackageReference "ViewAnimator" */;
+			productName = ViewAnimator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3EDA54AB28F6ED8100E27972 /* Project object */;
+}

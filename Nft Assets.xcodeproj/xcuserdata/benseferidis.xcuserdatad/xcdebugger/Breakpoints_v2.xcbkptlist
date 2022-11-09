@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B60C50B9-FC73-4575-AC97-7F9F91E56C62"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C928910A-0945-444E-908B-6D17D57C7682"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nft Assets/PopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C928910A-0945-444E-908B-6D17D57C7682 - f2585a205b1d5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nft_Assets.PopUpViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Nft Assets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benseferidis/Developer/Nft%20Assets/Nft%20Assets/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1524">
+               </Location>
+               <Location
+                  uuid = "C928910A-0945-444E-908B-6D17D57C7682 - f2585a205b1d5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nft_Assets.PopUpViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Nft Assets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benseferidis/Developer/Nft%20Assets/Nft%20Assets/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+               <Location
+                  uuid = "C928910A-0945-444E-908B-6D17D57C7682 - f2585a205b1d5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nft_Assets.PopUpViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Nft Assets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benseferidis/Developer/Nft%20Assets/Nft%20Assets/PopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

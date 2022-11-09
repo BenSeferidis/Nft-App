@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssetTableViewCell" rowHeight="132" id="KGk-i7-Jjw" customClass="AssetTableViewCell" customModule="Nft_Assets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="438" height="132"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="438" height="132"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gf6-KP-wWh">
+                        <rect key="frame" x="328" y="13" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Ihp-FX-h06"/>
+                            <constraint firstAttribute="height" constant="100" id="zF7-7K-Fm6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L69-w2-Z3J">
+                        <rect key="frame" x="20" y="13" width="300" height="70"/>
+                        <color key="backgroundColor" red="0.94746697810000002" green="0.68615309530000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="L69-w2-Z3J" secondAttribute="height" multiplier="145:18" id="ALo-dv-76a"/>
+                            <constraint firstAttribute="height" constant="10" id="SVh-a6-Ld6"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="36" id="cQz-Zw-Axb"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="grY-es-DcR"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="36" id="xEg-9O-lse"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="LIKEs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1P6-11-7uz">
+                        <rect key="frame" x="113" y="91" width="114" height="21.666666666666671"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="114" id="oNm-Xb-HLZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                        <color key="textColor" red="0.94746697810000002" green="0.68615309530000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1P6-11-7uz" firstAttribute="top" secondItem="L69-w2-Z3J" secondAttribute="bottom" constant="22" id="1ri-ws-0UM"/>
+                    <constraint firstItem="L69-w2-Z3J" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="3v4-R6-HEV"/>
+                    <constraint firstItem="1P6-11-7uz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4Sv-iW-2uM"/>
+                    <constraint firstAttribute="bottom" secondItem="gf6-KP-wWh" secondAttribute="bottom" constant="10" id="6mD-QX-TIb"/>
+                    <constraint firstItem="L69-w2-Z3J" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="858-ac-Y4I"/>
+                    <constraint firstItem="L69-w2-Z3J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="NJR-Vo-TZL"/>
+                    <constraint firstAttribute="trailing" secondItem="gf6-KP-wWh" secondAttribute="trailing" constant="10" id="czE-dH-Cbe"/>
+                    <constraint firstItem="gf6-KP-wWh" firstAttribute="leading" secondItem="L69-w2-Z3J" secondAttribute="trailing" constant="8" id="i8S-dB-CQm"/>
+                    <constraint firstItem="gf6-KP-wWh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="sKl-Ru-Qk0"/>
+                    <constraint firstItem="L69-w2-Z3J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="uTb-8G-faI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iconView" destination="gf6-KP-wWh" id="E9O-Pf-9ho"/>
+                <outlet property="likesLabel" destination="1P6-11-7uz" id="OtR-kH-Efk"/>
+                <outlet property="nameLabel" destination="L69-w2-Z3J" id="E9p-NB-YPk"/>
+            </connections>
+            <point key="canvasLocation" x="394" y="-114"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,4 +1,4 @@
-# Nft-Assets
+# Nft-App
 
 ![nft-assets-icon](https://user-images.githubusercontent.com/49198410/196111081-a0692901-9663-4335-b584-469729977efd.png)
 
